@@ -14,7 +14,7 @@ const TreeNode = ({ cx, cy, label, setOpen }) => {
       <circle
         cx={cx}
         cy={cy}
-        r="75"
+        r="65"
         stroke="black"
         strokeWidth="1"
         fill="lightblue"
@@ -77,7 +77,7 @@ const Tree = ({ setOpen }) => {
   };
 
   return (
-    <svg className="cursor-pointer" width="800" height="800">
+    <svg width="800" height="1800">
       {/* Lines connecting nodes */}
       <line
         x1={positions.root.x}

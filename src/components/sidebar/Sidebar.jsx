@@ -16,7 +16,7 @@ function Sidebar() {
       </div>
       <div
         className={
-          "h-screen w-[40vw] fixed z-10 bg-slate-400 py-40 px-10 flex flex-col items-center justify-around transition-all duration-100 " +
+          "h-screen w-[40vw] fixed z-10 bg-slate-400 pt-40 px-10 flex flex-col items-center justify-around transition-all duration-100 " +
           (open ? "left-0" : "-left-full")
         }
       >
