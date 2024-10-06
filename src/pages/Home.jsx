@@ -98,7 +98,7 @@ function Home() {
             className="video"
             id="hydrothermal-vents-video"
           >
-            <source src="public/videos/video.mp4" type="video/mp4" />
+            <source src="/videos/video.mp4" type="video/mp4" />
           </video>
         </div>
 
