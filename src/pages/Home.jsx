@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import "./Home.css";
 
@@ -109,9 +110,12 @@ function Home() {
           <p className="text-xl my-6">
             Explore the deep sea and learn about the creatures that live there
           </p>
-          <button className="inline-flex items-center justify-center h-12 gap-2 px-6 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-blue-500 hover:bg-blue-600 focus:bg-blue-700 disabled:cursor-not-allowed disabled:border-blue-300 disabled:bg-blue-300 disabled:shadow-none">
-            <span>Large button</span>
-          </button>
+          <Link
+            to={"/introduction"}
+            className="inline-flex items-center justify-center h-12 gap-2 px-6 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-blue-500 hover:bg-blue-600 focus:bg-blue-700 disabled:cursor-not-allowed disabled:border-blue-300 disabled:bg-blue-300 disabled:shadow-none"
+          >
+            <span>Know more</span>
+          </Link>
         </div>
       </section>
       <section className="origin-section">
