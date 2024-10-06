@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="blur-navbar w-3/6 fixed top-4 left-4 py-2 px-8 rounded-xl flex justify-between content-center">
+    <nav className="blur-navbar w-11/12 absolute top-4 left-4 py-2 px-8 rounded-xl flex justify-between content-center">
       <ul className="w-full flex justify-between content-center">
         <div>
             <Link to="/" className="text-xl">Aquathinkers</Link>
