@@ -13,6 +13,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="team" element={<Team />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
