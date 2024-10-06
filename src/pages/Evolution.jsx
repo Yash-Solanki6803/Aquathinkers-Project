@@ -2,6 +2,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import ToggleType from "../components/toggleType/ToggleType";
 // import bacteria from "/evolution/0_Algae.jpg";
 import { data } from "../data/evolution";
+import Sidebar from "../components/sidebar/Sidebar";
 
 function Evolution() {
   const { organism } = useParams();
@@ -16,6 +17,7 @@ function Evolution() {
       <div onClick={handleToggle}>
         <ToggleType />
       </div>
+      <Sidebar />
 
       <div className="min-h-[80vh] bg-gradient-to-b from-slate-500 to-white dark:from-slate-800 dark:to-slate-700 transition-all duration-700 py-28 px-40 flex flex-col items-center">
         <h1 className="text-6xl font-bold text-center p-10 dark:text-slate-300">

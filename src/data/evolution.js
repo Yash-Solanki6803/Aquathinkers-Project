@@ -303,7 +303,7 @@ Underground with no sunlight
   chemopredators: {
     complement: "angiosperms",
     title: "Chemoautotrophic Predators",
-    img: "/evolution/1_Chemopredators.jpg",
+    img: "/evolution/1_Chemopredators.jpeg",
     meaning: `"Chemo" refers to chemicals, and "predators" are animals that hunt other organisms. Chemo predators are creatures that hunt other organisms in chemosynthesis-based ecosystems.
 `,
     origin: ` Chemo predators likely evolved in deep-sea environments where other chemosynthetic organisms already existed, allowing them to prey on these creatures for survival.
@@ -421,7 +421,7 @@ These hubs are home to diverse species that work together to thrive without sunl
     ],
   },
   chemosentients: {
-    title: "Predatory Plants",
+    title: "Chemo Sentients",
     img: "/evolution/1_IntelligentChemosentients.jpeg",
     meaning: `"Chemo" refers to chemicals, and "sentients" are beings capable of perception or consciousness. Intelligent chemosentients are advanced organisms that rely on chemical processes for energy and have developed intelligence.
 `,
