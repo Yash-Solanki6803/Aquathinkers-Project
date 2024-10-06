@@ -1,18 +1,21 @@
-import { useStore } from "./store";
-import { data } from "./data/homepage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/home";
+import About from "./pages/About";
+import Team from "./pages/Team";
+
 function App() {
-  const synthesisType = useStore((state) => state.synthesisType);
-  const toggleSynthesis = useStore((state) => state.toggleSynthesis);
+  
   return (
-    <>
-      <h1 className="text-3xl">
-        Home :{" "}
-        {synthesisType
-          ? data.chemosynthesis.description
-          : data.photosynthesis.description}
-      </h1>
-      <button onClick={toggleSynthesis}>Toggle</button>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="team" element={<Team />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
