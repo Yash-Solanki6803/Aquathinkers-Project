@@ -1,6 +1,7 @@
 import island from "../../public/intro/Island.png";
 import coral from "../../public/intro/Coral.png";
 import hydrovent from "../../public/intro/Hydrovent.png";
+import { Link } from "react-router-dom";
 
 export default function Intro() {
   return (
@@ -222,7 +223,20 @@ export default function Intro() {
                 pressure and temperature.
               </p>
             </div>
-            <div className="w-1/2"></div>
+            <div className="w-1/2 flex flex-col gap-10 mt-40 ">
+              <Link
+                to={"/evolution"}
+                className="bg-blue-950 text-white px-10 py-4 rounded-xl text-2xl dark:bg-blue-400 dark:text-black"
+              >
+                Check Evolution
+              </Link>
+              <Link
+                to={"/synthesis"}
+                className="bg-blue-950 text-white px-10 py-4 rounded-xl text-2xl dark:bg-blue-400 dark:text-black"
+              >
+                Synthesis Page
+              </Link>
+            </div>
           </div>
         </div>
       </section>
