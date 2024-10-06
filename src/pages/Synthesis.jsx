@@ -4,23 +4,59 @@ import "./Synthesis.css";
 
 {
   /* Data:
-            - Stage 1: Light-Dependent Reactions  
-  - Occurs in thylakoid membranes of chloroplasts.
-  - Sunlight absorbed by chlorophyll.
-  - Water molecules (H₂O) split in photolysis, releasing oxygen (O₂).
-  - Produces protons (H⁺) and electrons (e⁻).
-  - Generates ATP and NADPH as energy carriers for the next stage.
-  - Reaction: 2H₂O → 4H⁺ + 4e⁻ + O₂.
 
-- Stage 2: Calvin Cycle (Light-Independent Reactions)  
-  - Occurs in the stroma of chloroplasts.
-  - Uses ATP and NADPH from the light-dependent reactions.
-  - Converts carbon dioxide (CO₂) into glucose (C₆H₁₂O₆).
-  - Carbon fixation via enzyme Rubisco combines CO₂ with RuBP.
-  - Produces 3-phosphoglycerate (3-PGA), then G3P, which forms glucose.
-  - Regenerates ADP and NADP⁺ for reuse in the light-dependent reactions.
-          
-           */
+- Process (Photosynthesis):
+  - Stage 1: Light-Dependent Reactions  
+    - Occurs in thylakoid membranes of chloroplasts.
+    - Sunlight absorbed by chlorophyll.
+    - Water molecules (H₂O) split in photolysis, releasing oxygen (O₂).
+    - Produces protons (H⁺) and electrons (e⁻).
+    - Generates ATP and NADPH as energy carriers for the next stage.
+    - Reaction: 2H₂O → 4H⁺ + 4e⁻ + O₂.
+
+  - Stage 2: Calvin Cycle (Light-Independent Reactions)  
+    - Occurs in the stroma of chloroplasts.
+    - Uses ATP and NADPH from the light-dependent reactions.
+    - Converts carbon dioxide (CO₂) into glucose (C₆H₁₂O₆).
+    - Carbon fixation via enzyme Rubisco combines CO₂ with RuBP.
+    - Produces 3-phosphoglycerate (3-PGA), then G3P, which forms glucose.
+    - Regenerates ADP and NADP⁺ for reuse in the light-dependent reactions.
+
+- Process (Chemosynthesis):
+  - Stage 1: Oxidation of Inorganic Molecules
+    - Occurs in the presence of chemosynthetic bacteria, often near hydrothermal vents.
+    - Inorganic molecules, such as hydrogen sulfide (H₂S) or methane (CH₄), are oxidized to release energy.
+    - This process generates protons (H⁺) and electrons (e⁻) from the oxidation reaction.
+    - The released electrons are used to reduce carbon dioxide (CO₂) into organic compounds.
+    - Overall reaction example: 
+      - For hydrogen sulfide: 
+        - 4H₂S + 6CO₂ → C₆H₁₂O₆ + 4H₂O + 4S.
+
+  - Stage 2: Synthesis of Organic Compounds
+    - Occurs in the cytoplasm of chemosynthetic bacteria.
+    - Utilizes energy derived from the oxidation of inorganic molecules.
+    - Converts carbon dioxide (CO₂) into glucose (C₆H₁₂O₆) through various biochemical pathways.
+    - Involves processes similar to the Calvin cycle, such as the fixation of carbon dioxide.
+    - Generates organic matter that supports various life forms, including those living in symbiosis with bacteria. 
+    - Regenerates co-factors like NADH or ATP for use in metabolic processes.
+
+- Contributors (Photosynthesis):
+  - Sun: Provides sunlight for photosynthesis.
+  - Chlorophyll: Absorbs light energy for the process.
+  - Water (H₂O): Split in photolysis to release oxygen and electrons.
+  - Carbon dioxide (CO₂): Converted into glucose during the Calvin Cycle.
+  - ATP (Adenosine Triphosphate): Energy carrier for cellular processes.
+  - NADPH (Nicotinamide Adenine Dinucleotide Phosphate): Electron carrier for redox reactions.
+
+- Contributors (Chemosynthesis):
+  -Chemosynthetic Bacteria**: The primary organisms driving chemosynthesis.
+  -Hydrogen Sulfide (H₂S)**: A key chemical energy source for many chemosynthetic bacteria.
+  -Carbon Dioxide (CO₂)**: Used by bacteria to produce organic compounds.
+  -Oxygen (O₂)**: Acts as an electron acceptor in some chemosynthetic reactions.
+  -Hydrothermal Vents**: Deep-sea environments that provide the necessary chemicals for chemosynthesis.
+  -Symbiotic Relationships**: Organisms like tube worms depend on chemosynthetic bacteria for nutrition.
+
+  */
 }
 
 function Synthesis() {
@@ -72,7 +108,7 @@ function Synthesis() {
         </div>
 
         {/* Process */}
-        <section className="container mx-auto px-6 py-6">
+        <div className="container mx-auto px-6 py-6">
           <h1 className="text-5xl text-center mb-2">Process</h1>
           {/* Subtext */}
           <p className="text-center text-lg text-gray-700 mb-8">
@@ -130,10 +166,10 @@ function Synthesis() {
               />
             </div>
           </div>
-        </section>
+        </div>
 
         {/* Contributors */}
-        <section className="container mx-auto px-6 py-6">
+        <div className="container mx-auto px-6 py-6">
           <h1 className="text-5xl text-center mb-6">Contributors</h1>
           {/* Grid */}
           <div className="grid grid-cols-3 gap-4">
@@ -202,7 +238,7 @@ function Synthesis() {
               </p>
             </div>
           </div>
-        </section>
+        </div>
       </section>
     </>
   );
