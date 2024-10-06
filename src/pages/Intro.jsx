@@ -1,6 +1,6 @@
-import island from "../../public/intro/Island.png";
-import coral from "../../public/intro/Coral.png";
-import hydrovent from "../../public/intro/Hydrovent.png";
+import island from "/intro/Island.png";
+import coral from "/intro/Coral.png";
+import hydrovent from "/intro/HydroVent.png";
 import { Link } from "react-router-dom";
 
 export default function Intro() {
