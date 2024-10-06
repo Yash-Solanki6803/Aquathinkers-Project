@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import About from "./pages/About";
 import Team from "./pages/Team";
 import Intro from "./pages/Intro";
+import Synthesis from "./pages/Synthesis";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="team" element={<Team />} />
           <Route path="introduction" element={<Intro />} />
+          <Route path="synthesis" element={<Synthesis />} />
         </Route>
       </Routes>
     </BrowserRouter>
