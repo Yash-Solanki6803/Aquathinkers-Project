@@ -59,7 +59,7 @@ export default function Intro() {
           <div className="flex justify-between gap-10">
             <div className="w-1/2"></div>
             <div className="bg-[rgba(255,255,255,0.45)] w-1/2  rounded-lg p-10 flex flex-col gap-10">
-              <h1 className="text-6xl font-bold text-slate-700">
+              <h1 className="text-5xl font-bold text-slate-700">
                 PHOTOSYNTHESIS
               </h1>
               <p className="text-2xl  text-slate-600">
@@ -79,7 +79,7 @@ export default function Intro() {
           </div>
           <div className="flex justify-between mt-10 gap-10">
             <div className="bg-[rgba(255,255,255,0.25)] w-1/2  rounded-lg p-10 flex flex-col gap-10">
-              <h1 className="text-6xl font-bold text-slate-200">
+              <h1 className="text-5xl font-bold text-slate-200">
                 Where it Happens:
               </h1>
               <p className="text-2xl  text-slate-200">
@@ -105,7 +105,7 @@ export default function Intro() {
               </p>
             </div>
             <div className="bg-[rgba(255,255,255,0.35)] w-1/2  rounded-lg p-10 flex flex-col gap-10">
-              <h1 className="text-6xl font-bold text-slate-200">
+              <h1 className="text-5xl font-bold text-slate-200">
                 How it Works:
               </h1>
               <p className="text-2xl  text-slate-200">
@@ -137,9 +137,9 @@ export default function Intro() {
           </div>
 
           {/* Chemosynthesis start here */}
-          <div className="flex justify-between mt-40 gap-10">
+          <div className="flex justify-between mt-10 gap-10">
             <div className="bg-[rgba(255,255,255,0.15)] w-1/2  rounded-lg p-10 flex flex-col gap-10">
-              <h1 className="text-6xl font-bold text-slate-200">
+              <h1 className="text-5xl font-bold text-slate-200">
                 CHEMOSYNTHESIS :
               </h1>
               <p className="text-2xl  text-slate-200">
@@ -162,7 +162,7 @@ export default function Intro() {
               </p>
             </div>
             <div className="bg-[rgba(255,255,255,0.05)] w-1/2  rounded-lg p-10 flex flex-col gap-10">
-              <h1 className="text-6xl font-bold text-slate-200">
+              <h1 className="text-5xl font-bold text-slate-200">
                 How it Works:
               </h1>
               <p className="text-2xl  text-slate-200">
@@ -195,9 +195,9 @@ export default function Intro() {
               </ul>
             </div>
           </div>
-          <div className="flex justify-between mt-40 gap-10">
+          <div className="flex justify-between mt-10 gap-10">
             <div className=" w-1/2  rounded-lg p-10 flex flex-col gap-10">
-              <h1 className="text-6xl font-bold text-slate-200">
+              <h1 className="text-5xl font-bold text-slate-200">
                 Where it Happens:
               </h1>
               <p className="text-2xl  text-slate-200">
