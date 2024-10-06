@@ -3,10 +3,12 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="blur-navbar w-11/12 absolute top-4 left-4 py-2 px-8 rounded-xl flex justify-between content-center">
-      <ul className="w-full flex justify-between content-center">
+    <nav className=" w-full absolute top-4  py-2 px-8 flex justify-between content-center">
+      <ul className="w-full blur-navbar py-2 px-8  flex justify-between content-center  rounded-xl">
         <div>
-            <Link to="/" className="text-xl">Aquathinkers</Link>
+          <Link to="/" className="text-xl">
+            Aquathinkers
+          </Link>
         </div>
         <div className="flex flex-row justify-evenly content-center gap-20 text-xl">
           <li>
